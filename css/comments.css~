@@ -1,0 +1,211 @@
+/**
+ * @file
+ * Comment Styling
+ */
+
+
+#comments /* Wrapper for the list of comments and its title */ {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+#comments h2.title /* Heading for the list of comments */ {
+    margin-bottom: 10px;
+}
+
+#comments h2.comment-form /* Heading for the comment form */ {
+    margin-bottom: 0px;
+}
+
+.comment /* Wrapper for a single comment */ {
+    min-width: 550px;
+}
+
+.comment-preview /* Preview of the comment before submitting new or updated comment */ {
+  background-color: #ffffea; /* Drupal core will use a #ffffea background. See #1110842 */
+}
+
+.comment.new /* A new comment since the user last viewed the page. */ {
+}
+
+.comment.first /* The first comment in the list of comments */ {
+}
+
+.comment.last /* The last comment in the list of comments */ {
+}
+
+.comment.odd /* An odd-numbered comment in the list of comments */ {
+}
+
+.comment.even /* An even-numbered comment in the list of comments */ {
+}
+
+.comment-content-top-left{
+
+    background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Comments/Comment-Top-Left.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-top: 10px;
+    
+   
+}
+.comment-content-top-right{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    margin-left: 10px;
+        background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Comments/Comment-Top-Right.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.comment-content-mid-container-left{
+            background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Comments/Comment-Mid-Left.png");
+    background-repeat: repeat-y;
+    background-position: top left;
+}
+.comment-content-mid-container-right{
+    margin-left: 10px;
+                background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Comments/Comment-Mid-Right.png");
+    background-repeat: repeat-y;
+    background-position: top right;
+}
+.comment-content-bottom-left{
+    background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Comments/Comment-Bottom-Left.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 18px;
+    margin-bottom: 10px;
+}
+.comment-content-bottom-right{
+    margin-left: 10px;
+    height: 18px;
+    background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Comments/Comment-Bottom-Right.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+}
+
+
+
+.comment-unpublished /* Unpublished comments */ {
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
+.comment-unpublished div.unpublished /* The word "Unpublished" displayed underneath the content. See also the div.unpublished declaration in the nodes.css. */ {
+}
+
+.comment-by-anonymous /* A comment created by an anonymous user */ {
+}
+
+.comment-by-node-author /* A comment created by the node's author */ {
+}
+
+.comment-by-viewer /* A comment created by the current user */ {
+}
+.comment-title-out-wrapper{
+    text-align: center;
+    background-image:  url("http://localhost/drupal-7.7/themes/athematic/images/Comments/Comment-Title-Left.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 70px;
+    margin-bottom: -30px;
+
+}
+.comment-title-in-wrapper{
+    background-image:  url("http://localhost/drupal-7.7/themes/athematic/images/Comments/Comment-Title-Right.png");
+    background-position: right top;
+    background-repeat: no-repeat;
+
+    line-height: 50px;
+    height: 70px;
+    margin-left: 20px;
+    
+}
+
+h3.comment-title /* Comment title */ {
+
+margin-bottom: 10px;
+margin-right: 20px;
+margin-top: 0px;
+}
+
+h3.comment-title a:link{text-decoration: none; color: #b5b5b5;}
+h3.comment-title a:active{text-decoration: none; color: #b5b5b5;}
+h3.comment-title a:visited{text-decoration: none; color: #b5b5b5;}
+h3.comment-title a:hover{text-decoration: none; color: #fff;}
+
+.new /* "New" marker for comments that are new for the current user */ {
+  color: #c00;
+}
+
+.comment .user-picture /* The picture of the comment author */ {
+    display: inline-block;
+
+    height: 20px;
+    width: 14px;
+    margin-right: 10px;
+}
+.comment .picture-frame{
+
+    
+
+    height: 20px;
+    width: 14px;
+    
+}
+
+.comment .user-picture img{  
+
+
+    height: 14px;
+    width: 14px;
+}
+
+
+.comment .submitted-wrap{
+    margin-left: 20px;
+        padding-left: 20px;
+  background-image:url("http://localhost/drupal-7.7/themes/athematic/images/Comments/Comment-Submitted-Left.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 20px; }
+
+.comment .submitted /* The "posted by" information */ {
+
+    margin-right: 20px;
+    text-align: center;
+
+    color: #cdd0d4;
+    background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Comments/Comment-Submitted-Right.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    height: 20px;
+}
+
+.comment .center_submit{ margin-right: 20px;}
+
+ .comment .submitted a.permalink { margin-right: 5px;}
+    
+
+
+.comment .content /* Comment's content wrapper */ {
+    color: #000;
+}
+
+.comment .user-signature /* The user's signature */ {
+}
+
+.comment ul.links /* Comment links. See also the ul.links declaration in the pages.css. */ {
+    margin-bottom: 0px;
+    color: #000;
+}
+.comment ul.links.inline a:link{text-decoration: none; color: #fff;}
+.comment ul.links.inline a:active{text-decoration: none; color: #fff;}
+.comment ul.links.inline a:visited{text-decoration: none; color: #fff;}
+.comment ul.links.inline a:hover{text-decoration: none; color: #333333;}  
+.indented /* Nested comments are indented */ {
+
+   margin-left: 15px;  /* Drupal core uses a 25px left margin */
+}

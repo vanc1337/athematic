@@ -1,0 +1,135 @@
+/**
+ * @file
+ * header Styling
+*/
+
+
+/*
+ * The active item in a Drupal menu
+*/
+li a.active {
+    color: #000;
+}
+
+/*
+ * header bar
+*/
+
+#header {
+
+overflow: hidden;
+   /* float:left;*/
+   /*width:100%;*/
+ /*  border-color: green;
+border-style: dotted;
+border-width: 2px; */
+    font-size: medium;
+    padding-bottom:  0px;
+margin-bottom: 0px;
+
+
+
+  line-height:normal;
+
+
+
+}
+#header .section {   
+}
+
+#header .content{                
+
+}
+#header .content .back-wrapper { 
+ 
+
+
+}
+/*block-system-main-menu div determines the position of the main menu */
+#block-system-main-menu{ 
+    
+
+}
+
+
+/*
+* Main Menu Link Text Decoration
+*/
+#header a:link{text-decoration: none; color: #FFFFFF;}
+#header a:active{text-decoration: none; color: #FFFFFF;}
+#header a:visited{text-decoration: none; color: #FFFFFF;}
+#header a:hover{text-decoration: none; color: #333333;}
+
+#header ul.menu {
+
+
+}
+
+#header li {
+
+
+
+}
+#header li.leaf {
+ 
+
+}
+/*
+ *  Main Menu Link Back Ground
+*/
+#header li.leaf a:link /*, #header strong, #header span*/ {
+    
+
+}
+
+#header #current a:link{text-decoration: none; color: #ffffff;}
+#header #current a:active{text-decoration: none; color: #ffffff;}
+#header #current a:visited{text-decoration: none; color: #ffffff;}
+#header #current a:hover{text-decoration: none; color: #878787;}
+
+#header #current   {
+
+
+
+
+}
+#header #current a:link {
+
+
+  
+    
+
+}
+.right-tab-bottom{
+
+}
+.left-tab-bottom{
+
+
+}
+
+
+.region-header {
+}
+
+
+/*
+ * Menu blocks
+*/
+.block-menu {
+
+
+
+    
+}
+
+/*
+ * "Menu block" blocks
+ *
+ * Drupal core has limited ways in which it can display its menus. To get around
+ * these limitations, see http://drupal.org/project/menu_block
+*/
+.block-menu-block {
+
+
+}

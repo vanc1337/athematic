@@ -1,0 +1,150 @@
+/**
+ * @file
+ * Page Background Styling
+ *
+ * The default layout method of Zen doesn't give themers equal-height columns.
+ * However, equal-height columns are difficult to achieve and totally
+ * unnecessary. Instead, use the Faux Columns method described in the following
+ * ALA article:
+ *   http://www.alistapart.com/articles/fauxcolumns/
+ */
+
+
+body {
+    background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/Background-Back.jpg");
+    background-position: top left; 
+    background-repeat: no-repeat;
+  background-color: #030303; 
+}   
+#body-wrapper{
+    background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/Main-Wrap-Bottom.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    
+}
+#page-wrapper {
+
+
+
+ 
+
+/*background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/Web-BG.png");*/
+
+ 
+    
+}
+
+#page {
+
+  
+}
+
+#header {
+    background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/Portland-Athematic-Header-BG-Fade.png");
+}
+
+#header .section {
+}
+
+#main-wrapper {
+
+    padding-top: 0px;
+margin: 0;
+
+
+    
+    
+
+}
+
+#main {
+
+
+padding-top: 0px;
+margin: 0;
+}
+
+#content{
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    border: none;
+   /* background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/Content-BG.jpg");
+    background-position: top left; */
+}
+
+#content .back-wrapper{   /* background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/Article-BG-Test.png");
+    background-position: top left; */
+
+/*background-color: white;*/
+/*border-style: dashed;
+border-color: red;
+border-width: 2px;*/
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+padding-left: 5px;
+}
+
+
+
+#Article-Container{
+
+    background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/Main-Content/Content-BG-Content.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+
+    min-height: 100px;
+
+    
+}
+#Article-Container .Article-Wrap{
+    background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/Main-Content/Content-BG-Content-Middle.png");
+    background-position: top left;
+        padding-bottom: 20px;
+        padding-top: 40px;
+           margin-bottom: 0px;
+ 
+        
+
+}
+#Article-Bottom{    
+    height: 20px;
+    background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/Main-Content/Content-BG-Content-Bottom.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    
+}
+
+.field-item{
+/*background-color: #878787;*/
+}
+
+.region-footer {
+    background: url("http://localhost/drupal-testing/themes/athematic/images/Footer/Footer-Mid.png");
+    background-position: top center;
+
+        height: 100px
+
+  
+}
+#footer-wrapper{
+    background: url("http://localhost/drupal-testing/themes/athematic/images/Footer/Footer-Left.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+#footer-right{
+    background: url("http://localhost/drupal-testing/themes/athematic/images/Footer/Footer-Right.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+
+}
+/*
+ * Page bottom
+ */
+.region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
+    
+
+    width:100%;
+}

@@ -1,0 +1,292 @@
+/**
+ * @file
+ * Form Styling
+ */
+
+
+.form-item /* Wrapper for a form element (or group of form elements) and its label */ {
+  margin: 1.5em 0;
+}
+
+#input-text-wrapper{    
+    background-image: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Input-Text-BG-Left.png');
+    background-position: top left;
+    background-repeat: no-repeat;
+    display: block;
+height: 26px;
+
+}
+.form-text{
+    background:transparent;
+    background-image: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Input-Text-BG-Right.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+
+    height: 26px;
+    max-width: 95%;
+    margin-left: 10px;
+   border-style: none;
+   border-width: 0px;
+   border-style-inner: none;
+   
+}
+
+#comment-form-wrapper h2{
+    background: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Form-Outline-Top.png');
+    height: 65px;
+    line-height: 75px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    margin-bottom: 0px;
+    border:0px;
+}
+#comment-form{
+        background: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Form-Outline-Middle.png');
+        background-repeat: repeat-y;
+        background-position: top center;
+        margin-top: 0px;
+        border:0px;
+        width: 680px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: auto;
+}
+#comment-form-wrapper{
+    
+        width: 100%;
+        background: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Form-Outline-Bottom.png');
+        background-repeat: no-repeat;
+        background-position: bottom center; 
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        color: #ccc;
+}
+
+#comment-form .text-area-top{
+
+    background-image: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Text-Area-Top.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 19px;
+    max-width: 650px;
+    min-width: 650px;
+    
+}
+
+#comment-form .text-area-bottom{       
+
+        max-width:650px;
+    min-width: 650px;
+            background-image: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Text-Area-Bottom.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 6px;
+}
+
+#comment-form textarea{
+        background-image: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Text-Area-Middle.png');
+    background-position: top center;
+    background-repeat: repeat-y;
+    max-width:650px;
+    min-width: 650px;
+
+   background-color: transparent;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+
+}
+
+#comment-form .grippie{
+    background: transparent;
+    height: 0;
+    border: none;
+    visibility:hidden;
+}
+#comment-form .form-item{
+    border:0px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#comment-form label{
+
+    margin-top:10px;
+}
+
+#comment-form .form-actions {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#article-node-form .text-area-top{
+
+    background-image: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Text-Area-Top-720.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 19px;
+    max-width: 720px;
+    min-width: 720px;
+    
+}
+
+#article-node-form .text-area-bottom{       
+
+        max-width:720px;
+    min-width: 720px;
+            background-image: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Text-Area-Bottom-720.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 6px;
+}
+
+#article-node-form textarea{
+        background-image: url('http://localhost/drupal-7.7/themes/athematic/images/Forms/Text-Area-Middle-720.png');
+    background-position: top center;
+    background-repeat: repeat-y;
+    max-width:720px;
+    min-width: 720px;
+
+   background-color: transparent;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+
+}
+
+#article-node-form .grippie{
+    background: transparent;
+    height: 0;
+    border: none;
+    visibility:hidden;
+}
+fieldset{ border: none;
+margin-left: 10px;
+margin-right: 10px;}
+
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error /* Highlight the form elements that caused a form submission error */ {
+  border: 1px solid #c00;
+}
+
+.form-item label /* The label for a form element */ {
+  display: block;
+  font-weight: bold;
+}
+
+.form-item label.option /* The label for a radio button or checkbox */ {
+  display: inline;
+  font-weight: normal;
+}
+
+.form-required /* The part of the label that indicates a required field */ {
+  color: #c00;
+}
+
+.form-item .description /* The descriptive help text (separate from the label) */ {
+  font-size: 0.85em;
+}
+
+.form-checkboxes .form-item,
+.form-radios .form-item /* Pack groups of checkboxes and radio buttons closer together */ {
+  margin: 0; /* Drupal core uses "0.4em 0" */
+}
+
+.form-submit /* The submit button */ {
+}
+
+.container-inline div,
+.container-inline label /* Inline labels and form divs */ {
+  display: inline;
+}
+
+.tips /* Tips for Drupal's input formats */ {
+}
+
+
+/*
+ * Password confirmation
+ */
+.password-parent,
+.confirm-parent {
+  margin: 0;
+}
+
+
+/*
+ * Search (search-block-form.tpl.php)
+ */
+#block-search-form /* Wrapper for the search form */ {
+}
+
+
+/*
+ * Drupal's default login form block
+ */
+#user-login-form {
+  text-align: left; /* LTR */
+}
+
+
+/*
+ * OpenID
+ *
+ * The default styling for the OpenID login link seems to assume Garland's
+ * styling of list items.
+ */
+
+#user-login-form ul /* OpenID creates a new ul above the login form's links. */ {
+  margin-bottom: 0; /* Position OpenID's ul next to the rest of the links. */
+}
+
+html.js #user-login-form li.openid-link,
+#user-login-form li.openid-link /* The "Log in using OpenID" link. */ {
+  margin-top: 1.5em;
+  margin-left: -20px; /* LTR */ /* Un-do some of the padding on the ul list. */
+}
+
+#user-login-form li.user-link /* The "Cancel OpenID login" link. */ {
+  margin-top: 1.5em;
+}
+
+#user-login ul {
+  margin: 1.5em 0;
+}
+
+#user-profile-form{
+    color: #878787;
+}
+
+
+/*
+ * Drupal admin tables
+ *
+ * We overrode these styles in html-reset.css, but restore them for the admin
+ * section of the site.
+ */
+
+form th {
+  text-align: left; /* LTR */
+  padding-right: 1em; /* LTR */
+  border-bottom: 3px solid #ccc;
+}
+
+form tbody {
+  border-top: 1px solid #ccc;
+}
+
+form tr.even {
+  background-color: #fff;
+}
+
+form table .item-list ul {
+  margin: 0;
+}

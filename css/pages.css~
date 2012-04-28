@@ -1,0 +1,430 @@
+/**
+ * @file
+ * Page Styling
+ *
+ * Style the markup found in page.tpl.php. Also includes some styling of
+ * miscellaneous Drupal elements that appear in the $content variable, such as
+ * ul.links, .pager, .more-link, etc.
+ */
+
+
+/*
+ * Body
+ */
+body {
+  margin: 0;
+  padding: 0;    
+}
+
+#page-wrapper {
+}
+
+#page {
+
+
+}
+
+/*
+ * The skip-link link will be completely hidden until a user tabs to the link.
+ * See the element-focusable rule in system.base.css.
+ */
+#skip-link a,
+#skip-link a:visited {
+  display: block;
+  width: 100%;
+  padding: 2px 0 3px 0;
+  text-align: center;
+  background-color: #666;
+  color: #fff;
+}
+
+/*
+ * Header
+ */
+ #header{
+
+
+}
+
+#header .section {
+
+}
+
+#logo /* Wrapping link for logo */ {
+  float: left; /* LTR */
+  margin: 0;
+  padding: 0;
+
+
+}
+
+#logo img {
+  vertical-align: bottom;
+}
+
+#name-and-slogan /* Wrapper for website name and slogan */ {
+  float: left;
+}
+
+h1#site-name,
+div#site-name /* The name of the website */ {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+#site-name a:link,
+#site-name a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+#site-name a:hover,
+#site-name a:focus {
+  text-decoration: none;
+}
+
+#site-slogan /* The slogan (or tagline) of a website */ {
+}
+
+.region-header /* Wrapper for any blocks placed in the header region */ {
+  clear: both; /* Clear the logo */
+}
+
+/*
+ * Main (container for everything else)
+ */
+#main-wrapper {
+
+
+}
+
+#main {
+
+}
+
+
+
+/*
+ * Content
+ */
+#content {
+
+
+}
+
+.breadcrumb-wrapper{
+
+    height: 27px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb{
+
+    margin-left: 10px;
+}
+
+.breadcrumb-link-wrapper-even a:link{text-decoration: none; color: #ff0000;}
+.breadcrumb-link-wrapper-even a:active{text-decoration: none; color: #ff0000;}
+.breadcrumb-link-wrapper-even a:visited{text-decoration: none; color: #ff0000;}
+.breadcrumb-link-wrapper-even a:hover{text-decoration: none; color: #6b0101;}
+
+.breadcrumb-link-wrapper-odd a:link{text-decoration: none; color: #111111;}
+.breadcrumb-link-wrapper-odd a:active{text-decoration: none; color: #111111;}
+.breadcrumb-link-wrapper-odd a:visited{text-decoration: none; color: #111111;}
+.breadcrumb-link-wrapper-odd a:hover{text-decoration: none; color: #333333;}
+
+.breadcrumb-link-wrapper-first a:link{text-decoration: none; color: #ff0000;}
+.breadcrumb-link-wrapper-first a:active{text-decoration: none; color: #ff0000;}
+.breadcrumb-link-wrapper-first a:visited{text-decoration: none; color: #ff0000;}
+.breadcrumb-link-wrapper-first a:hover{text-decoration: none; color: #6b0101;}
+
+.breadcrumb-link-wrapper-last-odd a:link{text-decoration: none; color: #111111;}
+.breadcrumb-link-wrapper-last-odd a:active{text-decoration: none; color: #111111;}
+.breadcrumb-link-wrapper-last-odd a:visited{text-decoration: none; color: #111111;}
+.breadcrumb-link-wrapper-last-odd a:hover{text-decoration: none; color: #333333;}
+
+.breadcrumb-link-wrapper-last-even a:link{text-decoration: none; color: #ff0000;}
+.breadcrumb-link-wrapper-last-even a:active{text-decoration: none; color: #ff0000;}
+.breadcrumb-link-wrapper-last-even a:visited{text-decoration: none; color: #ff0000;}
+.breadcrumb-link-wrapper-last-even a:hover{text-decoration: none; color: #6b0101;}
+
+.breadcrumb a{    
+
+    
+    padding-left: 10px;
+    height:100%;
+    width: 100%;
+}
+
+.breadcrumb-link-wrapper-even{
+    height: 25px;
+    float: left;
+    
+    background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Breadcrumb/BC-Even.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.breadcrumb-link-wrapper-odd{
+    float: left;
+    height: 25px;
+        line-height: 25px;
+
+        background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Breadcrumb/BC-Odd.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.breadcrumb-link-wrapper-first
+{
+     height: 25px;
+    float: left;
+    line-height: 25px;
+
+    background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Breadcrumb/BC-First.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.breadcrumb-link-wrapper-last-even
+{
+        height: 25px;
+            line-height: 25px;
+
+
+    float: left;
+
+    background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Breadcrumb/BC-Even.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.breadcrumb-link-wrapper-last-odd
+{
+        float: left;
+        height: 25px;
+            line-height: 25px;
+
+        
+        background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Breadcrumb/BC-Odd.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.breadcrumb-last-wrap-even{        
+    float: left;
+        height: 25px;
+        padding-right: 17px;
+
+
+        background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Breadcrumb/BC-Last-Even.png");
+    background-position: top right;
+    background-repeat: no-repeat;}
+
+.breadcrumb-last-wrap-odd{    
+    float: left;
+        height: 25px;
+        padding-right: 17px;
+       
+
+        background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Breadcrumb/BC-Last-Odd.png");
+    background-position: top right;
+    background-repeat: no-repeat;}
+
+.field-name-body a:link{text-decoration: none; color: #111111;}
+.field-name-body a:active{text-decoration: none; color: #111111;}
+.field-name-body a:visited{text-decoration: none; color: #111111;}
+.field-name-body a:hover{text-decoration: none; color: #333333;} 
+
+
+#Article-Container ul.links.inline a:link{text-decoration: none; color: #111111;}
+#Article-Container ul.links.inline a:active{text-decoration: none; color: #111111;}
+#Article-Container ul.links.inline a:visited{text-decoration: none; color: #111111;}
+#Article-Container ul.links.inline a:hover{text-decoration: none; color: #333333;}  
+
+.field-name-field-tags .field-items a:link{text-decoration: none; color: #ff0000;}
+.field-name-field-tags .field-items a:active{text-decoration: none; color: #ff0000;}
+.field-name-field-tags .field-items a:visited{text-decoration: none; color: #ff0000;}
+.field-name-field-tags .field-items a:hover{text-decoration: none; color: #6b0101;}
+
+#content .section {
+    
+}
+
+#content .node-title a:link{text-decoration: none; color: #c1c4c8;}
+#content .node-title a:active{text-decoration: none; color: #c1c4c8;}
+#content .node-title a:visited{text-decoration: none; color: #c1c4c8;}
+#content .node-title a:hover{text-decoration: none; color: #878787;} 
+
+
+.region-highlighted {
+}
+
+.breadcrumb /* The path to the current page in the form of a list of links */ {
+  padding-bottom: 0; /* Undo system.css */
+}
+
+h1.title, /* The title of the page */
+h2.node-title, /* Title of a piece of content when it is given in a list of content */
+
+
+h2.block-title, /* Block title */
+h2.title, /* Comment section heading */
+h2.comment-form, /* Comment form heading */
+h3.title /* Comment title */ {
+  margin: 0;
+}
+
+.page-title-wrapper{
+    background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Labels/Page-Title-Left.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    
+    height: 50px;
+    
+    
+    
+    
+}
+.title-prefix{
+    color:silver;
+    display: inline-block;
+}
+h2.title-for-page{
+    background-image: url("http://localhost/drupal-7.7/themes/athematic/images/Labels/Page-Title-Right.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 50px;
+    line-height: 45px;
+    margin-left: 5px;
+    color: silver;
+    padding-right: 5px;
+}
+
+tr.even /* Some tables have rows marked even or odd. */ {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+tr.odd {
+  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+}
+
+div.messages /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */ {
+  margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
+}
+
+div.messages ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.status /* Normal priority messages */ {
+}
+
+div.warning,
+tr.warning /* Medium priority messages */ {
+  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+}
+
+div.error,
+tr.error /* High priority messages. See also the .error declaration below. */ {
+}
+
+.error /* Errors that are separate from div.messages status messages. */ {
+  /* color: #e55; */ /* Drupal core uses a #e55 background */
+}
+
+.warning /* Warnings that are separate from div.messages status messages. */ {
+  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
+}
+
+div.tabs /* See also the tabs.css file. */ {}
+
+.tabs a:link{text-decoration: none; color: #000000;}
+.tabs a:active{text-decoration: none; color: #000000;}
+.tabs a:visited{text-decoration: none; color: #000000;}
+.tabs a:hover{text-decoration: none; color: #333333;}
+
+
+.region-help /* Help text on a page */ {
+}
+
+.more-help-link /* Link to more help */ {
+}
+
+.region-content /* Wrapper for the actual page content */ {
+}
+
+ul.links /* List of links */ {
+}
+
+ul.links.inline {
+  display: block; /* Let the links be inline, but the container be a block. */
+}
+
+ul.links li {
+  padding: 0 1em 0 0; /* LTR */
+}
+
+.item-list .pager /* A list of page numbers when more than 1 page of content is available */ {
+  padding: 0;
+}
+
+.item-list .pager li /* Each page number in the pager list */ {
+  padding: 0 0.5em;
+}
+
+.feed-icon /* The link to the RSS or Atom feed for the current list of content */ {
+}
+
+.more-link /* Aggregator, blog, and forum more link */ {
+}
+
+/*
+ * First sidebar (on left in LTR languages, on right in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-first
+ * (see the layout.css file.)
+ */
+.region-sidebar-first {
+
+
+
+}
+
+.region-sidebar-first .section {
+}
+
+/*
+ * Second sidebar (on right in LTR languages, on left in RTL)
+ *
+ * Remember to NOT add padding or margin to your .region-sidebar-second
+ * (see the layout.css file.)
+ */
+.region-sidebar-second {
+}
+
+.region-sidebar-second .section {
+}
+
+/*
+ * Footer
+ */
+.region-footer {
+
+}
+
+.center-footer-content{
+    margin-left: auto;
+    margin-right: auto;
+    color:#C0EEAC;
+    margin-top: 10px;
+    line-height: 30px;
+    display:inline-block;
+    
+}
+
+/*
+ * Page bottom
+ */
+.region-bottom /* Wrapper for any blocks placed in the page bottom region */ {
+}

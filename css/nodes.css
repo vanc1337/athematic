@@ -1,0 +1,133 @@
+/**
+ * @file
+ * Node Styling
+ *
+ * Style anything that isn't in the $content variable.
+ */
+
+
+.node /* Node wrapper */ {
+        margin-top: 5px;
+
+    background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/Main-Content/Content-BG-Top.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.preview .node /* Preview of the content before submitting new or updated content */ {
+  /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
+}
+
+.node-promoted /* A node that has been promoted to the front page */ {
+}
+
+.node-sticky /* A sticky node (displayed before others in a list) */ {
+}
+
+.node-unpublished /* Unpublished nodes */ {
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
+.node-unpublished div.unpublished,
+.comment-unpublished div.unpublished /* The word "Unpublished" displayed underneath the content. */ {
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+.node-by-viewer /* A node created by the current user */ {
+}
+
+.node-teaser /* A node displayed as teaser */ {
+}
+
+/* All nodes are given a node-FOO class that describes the type of content that
+ * it is. If you create a new content type called "my-custom-type", it will
+ * receive a "node-my-custom-type" class.
+ */
+.node-page /* Page content node */ {
+}
+
+.node-article {  
+}
+h2.node-title{
+    text-align: center;
+    padding-top: 20px;
+    height: 65px;
+  
+}
+
+
+#Pre-Content{
+    min-height:  20px;
+    /*padding-bottom: 20px; */}
+
+
+
+
+#Article-Container .user-picture /* The picture of the node author */ {
+  
+    background-image: url("http://localhost/drupal-testing/themes/athematic/images/Avatars/Avatar-Back.png");
+    margin-top: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 75px;
+    height:75px;
+    
+    
+}
+
+
+#Article-Container .picture-frame img{
+margin-left:6px;
+margin-right:6px;
+margin-top: 6px;
+margin-bottom: 6px;
+    height: 63px;
+    width: 63px;
+}
+
+#Article-Container .submitted-wrap{
+    margin-left: 20px;
+    text-align: center;
+        padding-left: 20px;
+  background-image:url("http://localhost/drupal-testing/themes/athematic/images/Background/submitted-left.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 25px; }
+
+#Article-Container .submitted /* The "posted by" information */ {
+
+    margin-right: 20px;
+
+    color: #cdd0d4;
+    background-image: url("http://localhost/drupal-testing/themes/athematic/images/Background/submitted-right.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    height: 25px;
+}
+#Article-Container .center_submit{margin-right: 20px;}
+
+
+#content .node .submitted a:link{text-decoration: none; color: #FFFFFF;}
+#content .node .submitted a:active{text-decoration: none; color: #FFFFFF;}
+#content .node .submitted a:visited{text-decoration: none; color: #FFFFFF;}
+#content .node .submitted a:hover{text-decoration: none; color: #878787;}
+
+.node .content /* Node's content wrapper */ {
+
+    /*background-color: blue;*/
+}
+
+.node ul.links /* Node links. See also the ul.links declaration in the pages.css. */ {
+    margin-left: 10px;
+
+}
